@@ -1,0 +1,88 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-weight: 16px 'Times New Roman', serif;
+	background-color: #FFFFFF;
+
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+.container{
+	width: 80%;
+	margin: auto;
+	background-color: #FFFFFF;
+}
+.header{
+	padding: 10px 5px;
+}
+.header .menu ul li{
+	font-size: 15px;
+	font-weight: normal;
+	display: inline-block;
+	float: right;
+}
+.header .menu a{
+	padding:  20px;
+	display: inline-block;
+}
+.header .menu a:hover{
+	background-color: #013428;
+	color: #FFFFFF;
+}
+.active{
+	background-color: #013428;
+	color: #FFFFFF;
+}
+.judul{
+	margin-top: 50px;
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.banner{
+	margin-top: 15px;
+	height: 550px;
+	background-image: url('../img/banner1.jpg');
+	background-size: cover;
+	background-position: 0-100px;
+	float: bottom;
+	border-bottom: 4px solid #F64D54;
+	border-top: 4px solid #EE7600;
+}
+.license{
+	font-size: 10px;
+	font-weight: normal;
+	float: right;
+	margin-top: 530px;
+}
+.content p{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+.content h4{
+	margin-top: 65px;
+	margin-bottom: 20px;
+	font-size: 30px;
+}
+.content ol {
+	margin-right:20px;
+	margin-left: 60px;
+}
+.content h5{
+	font-size: 20px;
+}
+.reference{
+	background-color: #eaeaea;
+	margin-top: 40px;
+}
+.reference .sumber{
+	padding: 3px 7px;
+	color: #000000;
+	font-size: 12px;
+}

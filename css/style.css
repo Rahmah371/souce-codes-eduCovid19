@@ -1,0 +1,52 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-weight: 16px 'Times New Roman', serif;
+	background-color: #FFFFFF;
+
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+.container{
+	width: 80%;
+	margin: auto;
+	background-color: #FFFFFF;
+}
+.header{
+	padding: 10px 5px;
+}
+.header .judul{
+	padding: 25px 20px;
+	font-size: 40px;
+	font-weight: bold;
+	
+}
+.menu ul li{
+	font-size: 12px;
+	font-weight: normal;
+	display: inline-block;
+	float: right;
+}
+.menu  a{
+	padding:  20px 10px;
+	display: inline-block;
+}
+.menu  a:hover{
+	background-color: #013428;
+	color: #FFFFFF;
+}
+.active{
+	background-color: #013428;
+	color: #FFFFFF;
+}
+.banner{
+	margin-top: 15px;
+	height: 550px;
+	background-image: url('../img/banner.jpg');
+	background-size: cover;
+	background-position: 0-100px;
+}
